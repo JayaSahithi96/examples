@@ -7,5 +7,6 @@ public class Main {
         bicycle sportsCycle = new bicycle();
         bicycle mountainCycle = new bicycle();
         sportsCycle.braking();
+        sportsCycle.changeGear(5);
     }
 }
